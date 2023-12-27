@@ -420,7 +420,7 @@ const currentPlayingSongId =
                       ? songDetails[currentSong].thumbnail
                       : image1
                   }
-                  width={300} height={300}
+                  width={100} height={100}
                   alt=""
                 />
               </div>
