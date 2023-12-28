@@ -121,11 +121,7 @@
 .light-mode .navbar .sideNav .logo-login {
   color: var(--PrimaryColor);
 }
-.light-mode .footer .footer-mob-view .accordion,
-.light-mode .footer .footer-mob-view .accordion p .title {
-  background-color: var(--SecondaryColor);
-  color: var(--PrimaryColor);
-}
+
 .light-mode .footer .footer-mob-view .MuiSvgIcon-root {
   color: var(--PrimaryColor);
 }
@@ -1887,20 +1883,6 @@
   cursor: pointer;
 }
 
-.footer .footer-mob-view .accordion {
-  background-color: var(--PrimaryColor2);
-  color: var(--SecondaryColor);
-}
-
-.footer .footer-mob-view .accordion p .title {
-  font-size: 0.9rem;
-  color: var(--SecondaryColor);
-  cursor: pointer;
-}
-
-.footer .footer-mob-view .accordion p .title:hover {
-  opacity: 0.8;
-}
 
 .footer .footer-mob-view .MuiSvgIcon-root {
   color: var(--SecondaryColor);
@@ -2221,30 +2203,7 @@
 
 
 
-.accordion-section h2 {
-  padding: 25px 0 0 15px;
-  background-color: var(--PrimaryColor);
-  color: var(--SecondaryColor);
-}
-.accordion-section .accordion-header {
-  background-color: var(--PrimaryColor);
-  color: white;
-}
-.accordion-section .accordion-header .accordion-header-level-1 {
-  color: white;
-}
-.accordion-section .MuiSvgIcon-root {
-  color: white;
-}
-.accordion-section .accordion-content {
-  background-color: var(--PrimaryColor);
-}
-.accordion-section .accordion-content .accordion-section-content {
-  color: white;
-  font-size: 0.7rem;
-  font-weight: 200;
-  opacity: 0.6;
-}
+
 
 .homepage-heading {
   margin-top: 15px;
@@ -2542,11 +2501,7 @@
     height: 500px;
   }
 
-  .accordion-section .accordion-content .accordion-section-content {
-    font-size: 0.7rem;
-    font-weight: 200;
-    opacity: 0.6;
-  }
+
 }
 
 
@@ -2714,11 +2669,7 @@
     height: 500px;
   }
 
-  .accordion-section .accordion-content .accordion-section-content {
-    font-size: 0.7rem;
-    font-weight: 200;
-    opacity: 0.6;
-  }
+ 
   .comming-soon-page .coming-soon-image {
     width: 300px;
   }
@@ -2853,11 +2804,7 @@
     font-size: 0.85rem;
   }
 
-  .accordion-section .accordion-content .accordion-section-content {
-    font-size: 0.7rem;
-    font-weight: 200;
-    opacity: 0.6;
-  }
+  
   .comming-soon-page .coming-soon-image {
     width: 350px;
   }
@@ -3451,11 +3398,7 @@
     height: 500px;
   }
  
-  .accordion-section .accordion-content .accordion-section-content {
-    font-size: 0.7rem;
-    font-weight: 200;
-    opacity: 0.6;
-  }
+ 
   .comming-soon-page .coming-soon-image {
     width: 500px;
   }

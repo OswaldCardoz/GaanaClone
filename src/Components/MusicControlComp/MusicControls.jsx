@@ -342,7 +342,7 @@ const currentPlayingSongId =
   songDetails[currentSong].id &&
   songDetails[currentSong].id;
 
-  async function favSongFetching() {
+  const favSongFetching =async()=> {
     try {
       const response = await fetch("https://academics.newtonschool.co/api/v1/music/favorites/like", {
         method: 'PATCH',
@@ -363,7 +363,7 @@ const currentPlayingSongId =
           return item && item._id ? item._id : item;
         });
         
-        let albumFlag = array.findIndex((d) => d === currentPlayingSongId);
+        let albumFlag = array.findIndex((e) => e === currentPlayingSongId);
         setExistingSongFav(albumFlag !== -1);
       } else {
 
@@ -378,7 +378,7 @@ const currentPlayingSongId =
     const array = (fetchingSongStored || []).map((item) => {
       return item && item._id ? item._id : item;
     });
-    let albumFlag = array.findIndex((d) => d === currentPlayingSongId);
+    let albumFlag = array.findIndex((e) => e === currentPlayingSongId);
     setExistingSongFav(albumFlag !== -1);
   }
   useEffect(()=> {
@@ -403,7 +403,6 @@ const currentPlayingSongId =
         onEnded={handleNext}
         src={songs[currentSong]}
         controls
-        // autoPlay
       />
 
       <div className="music-control-comp">
